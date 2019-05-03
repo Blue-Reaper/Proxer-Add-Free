@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        Proxer Add-Free
-// @version     1.0
+// @version     1.1
 // @description No adds on Proxer
 // @author      Blue.Reaper
 // @namespace   https://blue-reaper.github.io/Proxer-Essentials/
@@ -22,3 +22,6 @@
 // ==/OpenUserJS==
 
 GM_addStyle (GM_getResourceText ("CSS"));
+// no donate call on videoplayer
+setCookie('stream_donatecall1','1');
+setCookie('stream_donatecall3','1');
