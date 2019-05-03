@@ -1,0 +1,7 @@
+/* hide add on /watch site */
+img[src="/images/misc/proxerblock.png"],
+a[href^="https://publisher.anime-unicorn.com"],
+div.mn-related-container
+{
+    display: none !important;
+}
