@@ -23,5 +23,5 @@
 
 GM_addStyle (GM_getResourceText ("CSS"));
 // no donate call on videoplayer
-setCookie('stream_donatecall1','1');
-setCookie('stream_donatecall3','1');
+document.cookie = 'stream_donatecall1=1';
+document.cookie = 'stream_donatecall3=1';
